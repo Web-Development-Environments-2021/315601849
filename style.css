@@ -7,7 +7,7 @@ body {
 }
 
 .video {
-  width: 800px;
+  width: 70%;
   height: 300px;
   border: 2px solid black;
 }
@@ -82,6 +82,7 @@ h3 {
 }
 #textbox {
   height: 100px;
+  width: 60%;
   font-size: 12pt;
   background: linear-gradient(
     to right bottom,
