@@ -49,10 +49,11 @@ h3 {
   border-color: transparent;
   border: 2px solid transparent;
   box-shadow: none;
-  transition: 0.2s;
+  transition: 0.5s;
   font-family: Calibri;
   font-size: large;
   color: #245166;
+  animation-fill-mode: backwards;
   margin-right: 5px;
 }
 
@@ -60,6 +61,7 @@ h3 {
   background-color: rgb(255, 166, 0);
   border-color: rgb(255, 166, 0);
   color: white;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
   opacity: 1;
 }
 .backborder {
@@ -118,7 +120,7 @@ form {
   margin-right: 5px;
 }
 .formbut:hover {
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  text-shadow: 2px 2px 2px rgba(65, 149, 245, 0.5);
 }
 .photo {
   border: 20px solid rgba(255, 255, 255, 0.2);
