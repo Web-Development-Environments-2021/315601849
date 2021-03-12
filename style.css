@@ -85,6 +85,7 @@ h3 {
 #textbox {
   height: 100px;
   margin-bottom: 20px;
+  margin-top: 5px;
   width: 60%;
   font-size: 12pt;
   background: linear-gradient(
