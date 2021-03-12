@@ -80,15 +80,15 @@ h3 {
   margin-left: 30px;
 }
 #textbox {
-  height: 90px;
+  height: 100px;
   font-size: 12pt;
   background: linear-gradient(
     to right bottom,
-    rgba(255, 255, 255, 0.9),
+    rgba(255, 255, 255, 0.3),
     rgba(255, 255, 255, 0.5)
   );
   border-radius: 15px;
-  opacity: 0.3;
+  opacity: 1;
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
   background-color: transparent;
   border-color: transparent;
