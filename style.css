@@ -123,10 +123,13 @@ form {
     rgba(255, 255, 255, 0.2),
     rgba(255, 255, 255, 0.3)
   );
-  transform: translateY(-10px);
   transform: scale(1.1);
 }
 .onephoto {
   padding-left: 20px;
   padding-right: 20px;
+}
+.QNA {
+  text-align: center;
+  list-style-position: inside;
 }
