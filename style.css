@@ -133,3 +133,45 @@ form {
   text-align: center;
   list-style-position: inside;
 }
+.circlebutton{
+  width: 40px;
+  height: 40px;
+  background-color: #6cdbeb;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.3),
+    rgba(255, 255, 255, 0.4)
+  );
+  position: fixed;
+  border-radius: 20px;
+  bottom: 20px;
+  left: 20px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+  transition: 0.2s;
+  align-items: center;
+}
+.circlebutton:hover{
+  transform: translateY(-5px);
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.3),
+    transparent
+  );
+  background-color: rgb(255, 153, 0);
+  color:black
+}
+.top{
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+  font-size:x-large;
+  margin-top: 5px;
+}
+.butphoto{
+  margin-top: 8px;
+  -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
