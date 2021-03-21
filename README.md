@@ -7,3 +7,4 @@
 - Styled Table for Q&A
 - Fixed position up button instead of bar, because bar fixed looks really bad ..
 - Added Emojis on Text Area
+- Music Auto-Plays
