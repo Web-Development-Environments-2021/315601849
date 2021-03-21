@@ -133,7 +133,7 @@ form {
   text-align: center;
   list-style-position: inside;
 }
-.circlebutton{
+.circlebutton {
   width: 40px;
   height: 40px;
   background-color: #6cdbeb;
@@ -146,11 +146,11 @@ form {
   border-radius: 20px;
   bottom: 20px;
   left: 20px;
-  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
   transition: 0.2s;
   align-items: center;
 }
-.circlebutton:hover{
+.circlebutton:hover {
   transform: translateY(-5px);
   background: linear-gradient(
     to right bottom,
@@ -158,20 +158,36 @@ form {
     transparent
   );
   background-color: rgb(255, 153, 0);
-  color:black
+  color: black;
 }
-.top{
+.top {
   text-decoration: none;
   color: black;
   font-weight: bolder;
-  font-size:x-large;
+  font-size: x-large;
   margin-top: 5px;
 }
-.butphoto{
+.butphoto {
   margin-top: 8px;
   -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+table {
+  font-family: Calibri;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #fcae39;
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(odd) {
+  background-color: #ffc250;
 }
