@@ -197,6 +197,7 @@ tr:nth-child(odd) {
   background-color: #ffc250;
 }
 table {
-  left: 0px;
-  right: 0px;
+  table-layout: fixed;
+  width: 100%;
+  border-radius: 5px;
 }
